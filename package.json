@@ -1,11 +1,11 @@
 {
   "name": "js-binarypack",
-  "version": "0.1.-0",
+  "version": "0.1.0",
   "description": "BinaryPack serialization for the web browser",
   "homepage": "https://github.com/pcvengros/js-binarypack",
   "main": "./lib/binarypack.js",
   "scripts": {
-    "prepublish": "./node_modules/.bin/grunt",
+    "prepublish": "./node_modules/.bin/grunt --force",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,7 +19,7 @@
     "grunt-cli": "^1.3.2",
     "grunt-contrib-concat": "^1.0.1",
     "grunt-contrib-uglify": "^4.0.1",
-    "uglifyjs": "^2.4.11"
+    "uglify-js": "^3.6.0"
   },
-  "license": "BSD"
+  "license": "MIT"
 }
